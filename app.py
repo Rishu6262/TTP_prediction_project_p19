@@ -45,12 +45,12 @@ st.divider()
 # ===============================
 st.sidebar.header("📝 Trip Details")
 
-trip_distance = st.sidebar.slider("Trip Distance (km)", 1.0, 10000.0, 100.0)
+trip_distance = st.sidebar.slider("Trip Distance (km)", 1.0, 1000.0, 100.0)
 passengers = st.sidebar.selectbox("Passenger Count", [1, 2, 3, 4, 5, 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
 trip_duration = st.sidebar.slider("Trip Duration (minutes)", 1.0, 1000.0, 50.0)
 
 base_fare = st.sidebar.number_input("Base Fare", 1.0, 1000.0, 5.0)
-per_km_rate = st.sidebar.number_input("Per KM Rate", 0.1, 10000.0, 10.0)
+per_km_rate = st.sidebar.number_input("Per KM Rate", 0.1, 1000.0, 10.0)
 per_min_rate = st.sidebar.number_input("Per Minute Rate", 0.1, 2000.0, 10.3)
 
 time_of_day = st.sidebar.selectbox(
