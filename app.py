@@ -45,13 +45,13 @@ st.divider()
 # ===============================
 st.sidebar.header("📝 Trip Details")
 
-trip_distance = st.sidebar.slider("Trip Distance (km)", 1.0, 1000.0, 100.0)
-passengers = st.sidebar.selectbox("Passenger Count", [1, 2, 3, 4, 5, 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
-trip_duration = st.sidebar.slider("Trip Duration (minutes)", 1.0, 1000.0, 50.0)
+trip_distance = st.sidebar.slider("Trip Distance (km)", 1.0, 1000.0, 10.0)
+passengers = st.sidebar.selectbox("Passenger Count", [1, 2, 3, 4, 5, 6,7,8,9,10])
+trip_duration = st.sidebar.slider("Trip Duration (minutes)", 1.0, 100.0, 30.0)
 
-base_fare = st.sidebar.number_input("Base Fare", 1.0, 1000.0, 5.0)
-per_km_rate = st.sidebar.number_input("Per KM Rate", 0.1, 1000.0, 10.0)
-per_min_rate = st.sidebar.number_input("Per Minute Rate", 0.1, 2000.0, 10.3)
+base_fare = st.sidebar.number_input("Base Fare", 1.0, 100.0, 3.0)
+per_km_rate = st.sidebar.number_input("Per KM Rate", 0.1, 50.0, 1.0)
+per_min_rate = st.sidebar.number_input("Per Minute Rate", 0.1, 50.0, 0.3)
 
 time_of_day = st.sidebar.selectbox(
     "Time of Day",
@@ -84,17 +84,17 @@ data = {
     "Per_Minute_Rate": per_min_rate,
     "Trip_Duration_Minutes": trip_duration,
 
-    # "Time_of_Day_Evening": 1 if time_of_day == "Evening" else 0,
-    # "Time_of_Day_Morning": 1 if time_of_day == "Morning" else 0,
-    # "Time_of_Day_Night": 1 if time_of_day == "Night" else 0,
+    "Time_of_Day_Evening": 1 if time_of_day == "Evening" else 0,
+    "Time_of_Day_Morning": 1 if time_of_day == "Morning" else 0,
+    "Time_of_Day_Night": 1 if time_of_day == "Night" else 0,
 
-    # "Day_of_Week_Weekend": 1 if day_of_week == "Weekend" else 0,
+    "Day_of_Week_Weekend": 1 if day_of_week == "Weekend" else 0,
 
-    # "Traffic_Conditions_Low": 1 if traffic == "Low" else 0,
-    # "Traffic_Conditions_Medium": 1 if traffic == "Medium" else 0,
+    "Traffic_Conditions_Low": 1 if traffic == "Low" else 0,
+    "Traffic_Conditions_Medium": 1 if traffic == "Medium" else 0,
 
-    # "Weather_Rain": 1 if weather == "Rain" else 0,
-    # "Weather_Snow": 1 if weather == "Snow" else 0,
+    "Weather_Rain": 1 if weather == "Rain" else 0,
+    "Weather_Snow": 1 if weather == "Snow" else 0,
 }
 
 input_df = pd.DataFrame([data])
@@ -127,7 +127,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 
 
 
