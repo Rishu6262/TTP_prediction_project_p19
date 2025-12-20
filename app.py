@@ -84,17 +84,17 @@ data = {
     "Per_Minute_Rate": per_min_rate,
     "Trip_Duration_Minutes": trip_duration,
 
-    "Time_of_Day_Evening": 1 if time_of_day == "Evening" else 0,
-    "Time_of_Day_Morning": 1 if time_of_day == "Morning" else 0,
-    "Time_of_Day_Night": 1 if time_of_day == "Night" else 0,
+    # "Time_of_Day_Evening": 1 if time_of_day == "Evening" else 0,
+    # "Time_of_Day_Morning": 1 if time_of_day == "Morning" else 0,
+    # "Time_of_Day_Night": 1 if time_of_day == "Night" else 0,
 
-    "Day_of_Week_Weekend": 1 if day_of_week == "Weekend" else 0,
+    # "Day_of_Week_Weekend": 1 if day_of_week == "Weekend" else 0,
 
-    "Traffic_Conditions_Low": 1 if traffic == "Low" else 0,
-    "Traffic_Conditions_Medium": 1 if traffic == "Medium" else 0,
+    # "Traffic_Conditions_Low": 1 if traffic == "Low" else 0,
+    # "Traffic_Conditions_Medium": 1 if traffic == "Medium" else 0,
 
-    "Weather_Rain": 1 if weather == "Rain" else 0,
-    "Weather_Snow": 1 if weather == "Snow" else 0,
+    # "Weather_Rain": 1 if weather == "Rain" else 0,
+    # "Weather_Snow": 1 if weather == "Snow" else 0,
 }
 
 input_df = pd.DataFrame([data])
@@ -127,4 +127,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
