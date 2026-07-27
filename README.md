@@ -9,6 +9,17 @@
 An **End-to-End Machine Learning Regression** project that predicts **Taxi Trip Prices** based on trip-related information such as **distance, duration, passenger count, pickup and drop-off locations, traffic conditions, weather conditions, and travel time**. The project demonstrates the practical application of **Data Analytics**, **Machine Learning**, **Feature Engineering**, and **Interactive Web Deployment** to solve a real-world transportation pricing problem.
 
 ---
+
+# 📌 Project Overview
+
+The **Taxi Trip Pricing Prediction System** is designed to estimate taxi fares using historical trip data and machine learning regression techniques. The application analyzes multiple trip-related factors—including **distance traveled**, **trip duration**, **passenger count**, **traffic conditions**, **weather conditions**, **pickup and drop-off locations**, and **time of day**—to accurately predict the expected fare.
+
+Before model training, the dataset undergoes comprehensive **data cleaning**, **data preprocessing**, **feature engineering**, and **exploratory data analysis (EDA)** to improve data quality and prediction performance. Multiple regression algorithms are trained, evaluated, and compared to identify the best-performing model.
+
+The final model can be deployed as an interactive **Streamlit web application** or integrated with a **FastAPI REST API**, allowing users to enter trip details and receive instant fare predictions through a user-friendly interface.
+
+---
+
 ### Objectives
 - Analyze taxi trip pricing data
 - Perform data preprocessing and feature engineering
