@@ -1,13 +1,14 @@
-# 🚕 Taxi Trip Pricing Prediction
+# 🚕 Taxi Trip Pricing Prediction System
 
-A Machine Learning project that predicts taxi trip fares based on trip details such as distance, duration, passenger count, traffic conditions, and location data.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Regression-success)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?logo=streamlit)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📌 Project Overview
+An **End-to-End Machine Learning Regression** project that predicts **Taxi Trip Prices** based on trip-related information such as **distance, duration, passenger count, pickup and drop-off locations, traffic conditions, weather conditions, and travel time**. The project demonstrates the practical application of **Data Analytics**, **Machine Learning**, **Feature Engineering**, and **Interactive Web Deployment** to solve a real-world transportation pricing problem.
 
-Taxi pricing depends on multiple factors like trip distance, time, passenger count, traffic, and demand.
-
-This project uses Machine Learning Regression algorithms to predict taxi trip prices accurately.
-
+---
 ### Objectives
 - Analyze taxi trip pricing data
 - Perform data preprocessing and feature engineering
