@@ -124,61 +124,70 @@ The project leverages modern **Python libraries**, **Machine Learning frameworks
 
 ---
 
-## 🤖 Machine Learning Models Used
+# 🤖 Machine Learning Models Used
 
-Regression algorithms:
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-- Gradient Boosting Regressor
-- XGBoost Regressor (optional)
+To identify the most accurate model for taxi fare prediction, multiple regression algorithms were trained and evaluated. The final model was selected based on its prediction accuracy and overall performance on the test dataset.
 
-Best model selected based on performance metrics.
+## 🚀 Regression Models
 
----
+| Model | Description |
+|--------|-------------|
+| 📈 Linear Regression | A simple baseline model for predicting continuous values. |
+| 🌳 Decision Tree Regressor | Captures non-linear relationships using a tree-based approach. |
+| 🌲 Random Forest Regressor | An ensemble learning model that improves accuracy and reduces overfitting. |
+| ⚡ Gradient Boosting Regressor | Sequentially builds models to minimize prediction errors. |
+| 🚀 XGBoost Regressor *(Optional)* | An advanced boosting algorithm known for high performance and efficiency. |
 
-## 📊 Project Workflow
-
-### 1. Data Collection
-Load taxi trip dataset.
-
-### 2. Data Preprocessing
-- Handle missing values
-- Remove duplicates
-- Fix incorrect data types
-
-### 3. Exploratory Data Analysis (EDA)
-Visualize:
-- Fare distribution
-- Distance vs Price
-- Traffic impact
-- Time-based pricing trends
-
-### 4. Feature Engineering
-- Encoding categorical columns
-- Feature scaling
-- Creating derived features
-
-### 5. Train-Test Split
-Split dataset into training and testing sets.
-
-### 6. Model Training
-Train regression models.
-
-### 7. Model Evaluation
-Evaluate using:
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
-
-### 8. Model Saving
-Save trained model using pickle/joblib.
-
-### 9. Deployment
-Deploy using Streamlit.
+The **best-performing model** was selected based on evaluation metrics such as **MAE, MSE, RMSE, and R² Score**.
 
 ---
+
+# 📊 Project Workflow
+
+The project follows a complete **End-to-End Machine Learning Pipeline**, from data collection to deployment.
+
+### 📥 1. Data Collection
+- Load the Taxi Trip Pricing dataset.
+- Inspect dataset structure and understand available features.
+
+### 🧹 2. Data Preprocessing
+- Handle missing values.
+- Remove duplicate records.
+- Fix incorrect data types.
+- Prepare clean and consistent data for analysis.
+
+### 📈 3. Exploratory Data Analysis (EDA)
+- Analyze fare distribution.
+- Study the relationship between trip distance and fare.
+- Examine the impact of traffic and weather conditions.
+- Visualize important trends and feature correlations.
+
+### ⚙️ 4. Feature Engineering
+- Encode categorical variables.
+- Scale numerical features (if required).
+- Create meaningful derived features to improve model performance.
+
+### 🔀 5. Train-Test Split
+- Split the dataset into training and testing sets for unbiased model evaluation.
+
+### 🤖 6. Model Training
+- Train multiple regression algorithms.
+- Compare model performance.
+- Select the best-performing model.
+
+### 📏 7. Model Evaluation
+Evaluate model performance using:
+
+- ✅ Mean Absolute Error (MAE)
+- ✅ Mean Squared Error (MSE)
+- ✅ Root Mean Squared Error (RMSE)
+- ✅ R² Score
+
+### 💾 8. Model Saving
+- Save the trained machine learning model using **Pickle** or **Joblib** for future predictions.
+
+### 🌐 9. Deployment
+- Deploy the final model using **Streamlit** to provide an interactive web application for real-time taxi fare prediction.
 
 ## 📁 Project Structure
 
