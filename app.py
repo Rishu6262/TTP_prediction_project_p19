@@ -47,7 +47,7 @@ st.sidebar.header("📝 Trip Details")
 
 trip_distance = st.sidebar.slider("Trip Distance (km)", 1.0, 1000.0, 10.0)
 passengers = st.sidebar.selectbox("Passenger Count", [1, 2, 3, 4, 5, 6,7,8,9,10])
-trip_duration = st.sidebar.slider("Trip Duration (minutes)", 1.0, 100.0, 30.0)
+trip_duration = st.sidebar.slider("Trip Duration (minutes)", 1.0, 1000.0, 30.0)
 
 base_fare = st.sidebar.number_input("Base Fare", 1.0, 100.0, 3.0)
 per_km_rate = st.sidebar.number_input("Per KM Rate", 0.1, 50.0, 1.0)
