@@ -1,5 +1,28 @@
 # 🚕 Taxi Trip Pricing Prediction System
 
+---
+
+# 🚀 Live Demo
+
+Experience the Taxi Trip Pricing Prediction System in action through the interactive Streamlit application.
+
+🌐 **Live Application:**  
+https://ttppredictionprojectp19-yrlydxpb3qvgcbcr8sxx42.streamlit.app/
+
+---
+
+### ✨ Features
+
+- 🚕 Predict taxi trip fares instantly
+- 📊 User-friendly and interactive interface
+- ⚡ Real-time machine learning predictions
+- 📱 Responsive web application
+- 🌐 Accessible from any modern web browser
+
+> **Try the live application and estimate taxi fares based on trip details in just a few clicks!**
+
+---
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Regression-success)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
@@ -258,3 +281,13 @@ The final solution is deployed as an interactive **Streamlit web application**, 
 💻 **Python Developer | Data Analyst | Machine Learning Enthusiast | Deep Learning Learner | Generative AI Enthusiast**
 
 I am passionate about building intelligent applications using **Python**, **Machine Learning**, **Deep Learning**, **Generative AI**, and **Data Analytics**. I enjoy developing end-to-end machine learning solutions, predictive analytics systems, and interactive web applications that solve real-world business problems.
+
+---
+
+### 📬 Connect with Me
+
+- 💻 **GitHub:** https://github.com/Rishu6262
+- 💼 **LinkedIn:** https://www.linkedin.com/in/rishu-gurjar-58072a333/
+- 📊 **Kaggle:** https://www.kaggle.com/rishugurjar
+
+⭐ If you found this project useful, please consider giving it a **Star ⭐** on GitHub. Your support and feedback are greatly appreciated!
