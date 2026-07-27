@@ -38,26 +38,43 @@ The primary objective of this project is to develop an intelligent **Machine Lea
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset Information
 
-Dataset used:
-**taxi_trip_pricing.csv**
+The project uses the **Taxi Trip Pricing Dataset**, which contains historical taxi trip records and fare information. The dataset is used to train and evaluate machine learning regression models for accurate taxi fare prediction.
 
-Features may include:
-- Trip Distance
-- Trip Duration
-- Passenger Count
-- Pickup Location
-- Dropoff Location
-- Time of Day
-- Traffic Conditions
-- Weather Conditions
-- Base Fare
-- Additional Charges
+## 📊 Dataset Summary
 
-Target Variable:
-- **Trip Price / Fare Amount**
+| Attribute | Details |
+|-----------|---------|
+| 📂 Dataset Name | Taxi Trip Pricing Dataset |
+| 📄 File Name | `taxi_trip_pricing.csv` |
+| 🎯 Target Variable | Trip Price / Fare Amount |
+| 📚 Dataset Type | Structured Tabular Dataset |
+| 🚕 Domain | Transportation Analytics / Fare Prediction |
 
+---
+
+## 📋 Dataset Features
+
+| Feature | Description |
+|---------|-------------|
+| 🚕 Trip Distance | Total distance traveled during the trip |
+| ⏱️ Trip Duration | Total travel time from pickup to drop-off |
+| 👥 Passenger Count | Number of passengers in the trip |
+| 📍 Pickup Location | Starting location of the journey |
+| 🏁 Drop-off Location | Destination of the journey |
+| 🕒 Time of Day | Time when the trip was taken |
+| 🚦 Traffic Conditions | Traffic intensity during the trip |
+| 🌦️ Weather Conditions | Weather at the time of travel |
+| 💵 Base Fare | Initial fare before additional charges |
+| ➕ Additional Charges | Extra charges such as tolls or surge pricing |
+| 💰 Trip Price | Final taxi fare (Target Variable) |
+
+---
+
+## 🎯 Dataset Importance
+
+This dataset provides valuable insights into the factors affecting taxi fares and serves as an excellent resource for building regression models. It enables developers and data scientists to practice **data preprocessing**, **exploratory data analysis (EDA)**, **feature engineering**, **regression modeling**, and **predictive analytics** using real-world transportation data.
 ---
 
 ## 🛠 Technologies Used
