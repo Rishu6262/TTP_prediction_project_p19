@@ -77,19 +77,50 @@ The project uses the **Taxi Trip Pricing Dataset**, which contains historical ta
 This dataset provides valuable insights into the factors affecting taxi fares and serves as an excellent resource for building regression models. It enables developers and data scientists to practice **data preprocessing**, **exploratory data analysis (EDA)**, **feature engineering**, **regression modeling**, and **predictive analytics** using real-world transportation data.
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
-### Programming Language
-- Python
+The project leverages modern **Python libraries**, **Machine Learning frameworks**, and **development tools** to build an end-to-end taxi fare prediction system.
 
-### Libraries
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Pickle / Joblib
-- Streamlit
+## 💻 Technology Stack
+
+| Category | Technology | Purpose |
+|----------|------------|---------|
+| 🐍 Programming Language | Python | Core programming language for development |
+| 📊 Data Analysis | Pandas | Data manipulation and preprocessing |
+| 🔢 Numerical Computing | NumPy | Numerical operations and array processing |
+| 📈 Data Visualization | Matplotlib | Statistical data visualization |
+| 📉 Data Visualization | Seaborn | Advanced charts and exploratory data analysis |
+| 🤖 Machine Learning | Scikit-learn | Model training, evaluation, and preprocessing |
+| 💾 Model Serialization | Pickle / Joblib | Save and load trained machine learning models |
+| 🌐 Web Framework | Streamlit | Interactive web application deployment |
+| 📝 Development Environment | Jupyter Notebook / VS Code | Model development and experimentation |
+| 🔗 Version Control | Git & GitHub | Source code management and collaboration |
+
+---
+
+## 📚 Python Libraries Used
+
+- **Pandas** – Data loading, cleaning, and preprocessing
+- **NumPy** – Numerical computations and array operations
+- **Matplotlib** – Data visualization and plotting
+- **Seaborn** – Exploratory Data Analysis (EDA)
+- **Scikit-learn** – Machine learning models and evaluation metrics
+- **Pickle / Joblib** – Model serialization and deployment
+- **Streamlit** – Interactive user interface for fare prediction
+
+---
+
+## 🚀 Technical Skills Demonstrated
+
+- 🐍 Python Programming
+- 📊 Data Analysis & Data Cleaning
+- 📈 Exploratory Data Analysis (EDA)
+- ⚙️ Feature Engineering
+- 🤖 Machine Learning Regression
+- 📏 Model Evaluation (MAE, MSE, RMSE, R² Score)
+- 💾 Model Serialization
+- 🌐 Streamlit Application Development
+- 🔗 Git & GitHub Version Control
 
 ---
 
