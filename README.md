@@ -20,12 +20,21 @@ The final model can be deployed as an interactive **Streamlit web application** 
 
 ---
 
-### Objectives
-- Analyze taxi trip pricing data
-- Perform data preprocessing and feature engineering
-- Train regression models
-- Evaluate model performance
-- Build a deployable prediction system
+## 🎯 Project Objectives
+
+The primary objective of this project is to develop an intelligent **Machine Learning Regression** system capable of accurately predicting taxi trip fares based on various trip-related factors. The project focuses on applying data analytics and predictive modeling techniques to improve fare estimation and support data-driven decision-making in the transportation industry.
+
+### Key Objectives
+
+- 🚕 Analyze historical taxi trip data to identify pricing patterns and trends.
+- 🧹 Perform comprehensive data cleaning, preprocessing, and feature engineering.
+- 📊 Conduct Exploratory Data Analysis (EDA) to understand the relationship between trip features and fare prices.
+- 🤖 Train and compare multiple Machine Learning regression algorithms.
+- 📏 Evaluate model performance using MAE, MSE, RMSE, and R² Score.
+- 💾 Save the best-performing model for future predictions using Pickle.
+- 🌐 Develop an interactive Streamlit application for real-time fare prediction.
+- 🚀 Build a deployment-ready end-to-end Machine Learning solution.
+- 💼 Strengthen practical skills in Python, Data Analytics, Machine Learning, and Model Deployment through a real-world transportation pricing use case.
 
 ---
 
