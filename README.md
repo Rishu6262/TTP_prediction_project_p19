@@ -248,3 +248,13 @@ Through comprehensive **data preprocessing**, **feature engineering**, **explora
 The final solution is deployed as an interactive **Streamlit web application**, enabling users to estimate taxi fares quickly and accurately. This project highlights practical expertise in **Python**, **Data Analytics**, **Machine Learning**, **Regression Modeling**, and **Model Deployment**, making it a valuable portfolio project for aspiring **Machine Learning Engineers**, **Data Scientists**, and **Python Developers**.
 
 ---
+
+# 👨‍💻 Author
+
+## Rishu Gurjar
+
+🎓 **B.Tech Computer Science Engineering Student**
+
+💻 **Python Developer | Data Analyst | Machine Learning Enthusiast | Deep Learning Learner | Generative AI Enthusiast**
+
+I am passionate about building intelligent applications using **Python**, **Machine Learning**, **Deep Learning**, **Generative AI**, and **Data Analytics**. I enjoy developing end-to-end machine learning solutions, predictive analytics systems, and interactive web applications that solve real-world business problems.
